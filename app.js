@@ -12,7 +12,8 @@ if(process.env.NODE_ENV != "production"){
 }
 // EJS Setup
 app.set("view engine", "ejs");
-app.set("Views", path.join(__dirname, "/Views"));
+app.set("views", path.join(__dirname, "/Views"));
+
 
 app.use(methodOverride("_method"));
 // Handeling body data 
