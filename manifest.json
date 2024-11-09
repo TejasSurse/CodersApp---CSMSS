@@ -1,0 +1,22 @@
+{
+    "name": "CSMSS Coders",
+    "short_name": "Coders",
+    "description": "A registration app for students to store LeetCode and GFG usernames",
+    "icons": [
+      {
+        "src": "/public/csmssengg.jpg",
+        "sizes": "192x192",
+        "type": "image/jpg"
+      },
+      {
+        "src": "/public/csmssengg.jpg",
+        "sizes": "512x512",
+        "type": "image/jpg"
+      }
+    ],
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#5a5a5a"
+  }
+  
